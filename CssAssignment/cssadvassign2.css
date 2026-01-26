@@ -1,0 +1,33 @@
+.page {
+    height: 100%;
+    width: 100%;
+}
+.top {
+    min-height: 70px;
+    width: 100%;
+    background-color: #dfcaca;
+}
+.content {
+    margin: auto 10%;
+}
+.logo {
+    float: left;
+}
+.navbar {
+    float: right;
+}
+.navbar a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+}
+.navbar img {
+    height: 40px;
+    vertical-align: middle;
+}
+.blue {
+    background-color: #1b365f;
+    min-height: 750px;
+    opacity: 0.9;
+}
