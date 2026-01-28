@@ -5,7 +5,7 @@
 .top {
     min-height: 70px;
     width: 100%;
-    background-color: #dfcaca;
+    background-color: #fbfaff;
 }
 .content {
     margin: auto 10%;
@@ -15,11 +15,12 @@
 }
 .navbar {
     float: right;
+    overflow: hidden;
 }
 .navbar a{
     margin-right: 30px;
     text-decoration: none;
-    color: black;
+    color: #000000;
     line-height: 70px;
 }
 .navbar img {
@@ -27,7 +28,46 @@
     vertical-align: middle;
 }
 .blue {
-    background-color: #1b365f;
+    background-color: #181b3c;
     min-height: 750px;
-    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.grey {
+    background-color: #fbfaff;
+    min-height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blue .content {
+    padding-top: 250px;
+    min-height: 700px;
+}
+.blue .content h1 {
+    color: #ffffff;
+    margin: 0%;
+    text-align: center;
+    font-size: 5rem;
+}
+.blue .content p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 550px;
+    margin-left: 28%;
+}
+.btn {
+    margin-top: 70px;
+    margin-left: 25%;
+}
+.btn a{
+    background-color: #ffcc00;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 30px;
 }
