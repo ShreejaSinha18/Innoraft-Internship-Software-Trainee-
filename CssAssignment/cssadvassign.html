@@ -7,42 +7,56 @@
     <link rel="stylesheet" href="cssadvassign.css" />
 </head>
 <body>
-    <div class="page">
-        <div class="top">
-            <div class="menu">
-                <div class="logo">
+    <div class="container">
+        <header class="top">
+            <nav class="nav">
+                <section class="logo">
                     <img src="logo2.png">
-                </div>
-                <div class="navbar">
-                    <a class="active" href="#">Home</a>
-                    <a href="#">Services</a>
-                    <a href="#">Profile</a>
-                    <a href="#">Contact Us</a>
-                </div>
-            </div>
-            <div class="banner">
+                </section>
+                <section class="navbar">
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </section>
+            </nav>
+            
+        </header>
+        <main class="main">
+            <section class="banner">
                 
                 <h1>BANNER</h1>
                 
-            </div>
-        </div>
+            </section>
+            <section class="middle">
+                <section class="left">
+                    <section class="left_purple"></section>
+                    <section class="left_yellow"></section>
+                </section>
+                <section class="right">
+                    <section class="right_orange">
+                        <form>
+                            <input type="text" name="name">
+                            <input type="text" name="email">
+                            <select name="email2">
+                                <option></option>
+                            </select>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </section>
+                    <section class="right_green"></section>
+                </section>
+            </section>
+        </main>
         
-        <div class="middle">
-            <div class="left">
-                <div class="left_purple"></div>
-                <div class="left_yellow"></div>
-            </div>
-            <div class="right">
-                <div class="right_orange"></div>
-                <div class="right_green"></div>
-            </div>
-        </div>
         
-        <div class="bottom">
+        <footer class="bottom">
             <a href="#">Home</a>
             <a href="#">Services</a>
             <a href="#">Profile</a>
             <a href="#">Contact Us</a>
-        </div>
+        </footer>
     </div>
 </body>
