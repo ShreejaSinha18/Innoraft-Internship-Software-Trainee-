@@ -308,6 +308,21 @@ nav li a:hover {
 .grey .cards .card h3 {
     font-size: 1.2rem;
 }
+.grey .cards .card2 {
+    background-color: #ffffff;
+    margin-right: 2rem;
+    display: inline-grid;
+    width: 30%;
+}
+.grey .cards .card2 .card-content {
+    padding: 2.5rem;
+}
+.grey .cards .card2 h3 {
+    font-size: 1rem;
+}
+.grey .cards .card2 img {
+    width: 100%;
+}
 .grey .btn {
     margin-top: 2rem;
     text-align: center;
@@ -325,4 +340,50 @@ nav li a:hover {
     background-color: #ffcc00;
     color: #ffffff;
     border: none;
+}
+
+
+footer {
+    background-color: #3a376c;
+}
+footer .quicklinks {
+    padding: 4rem 0;
+    text-align: left;
+}
+footer .quicklinks .ql {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+}
+footer .quicklinks .ql h4 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+footer .quicklinks .ql ul li {
+    list-style: none;
+    margin: 0.8rem 0;
+}
+footer .quicklinks .ql ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+footer .quicklinks .ql form input[type="email"] {
+    width: 70%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 2rem;
+}
+footer p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 1rem 0;
 }
