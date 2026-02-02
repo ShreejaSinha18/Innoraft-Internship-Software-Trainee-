@@ -53,7 +53,7 @@ nav li a:hover {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color: #181b3c;
+    background-color: #212443;
     opacity: 0.8;
     z-index: 1;
 }
@@ -85,10 +85,10 @@ nav li a:hover {
     margin: 2rem auto;
     font-weight: 100;
 }
-.blue .hero .btn {
+.blue .btn {
     text-align: center;
 }
-.blue .hero .btn a{
+.blue .btn a{
     color: #ffffff;
     padding: 0.9rem 1.7rem;
     text-decoration: none;
@@ -97,21 +97,91 @@ nav li a:hover {
     border-radius: 30px;
     border: 2px solid #ffffff;
 }
-.blue .hero .btn a:hover {
+.blue .btn a:hover {
     background-color: #ffcc00;
     border: none;
 }
+.blue .home h4 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    padding: 0 17rem;
+}
+.blue .home h4 span {
+    font-weight: 700;
+}
+.blue .cards {
+    text-align: center;
+    color: #ffffff;
+    margin: 3rem 0;
+}
+.blue .cards .card {
+    width: 32%;
+    padding: 1rem;
+    display: inline-grid;
+}
+.blue .cards .card img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 40%;
+}
+.blue .cards .card h3 {
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-weight: 700;
+}
+.blue .cards .card p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
 
 .grey {
-    background-color: #fbfaff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #f5f4fa;
 }
 .home {
     font-family: 'Roboto', sans-serif;
+    padding: 6rem 0;
+    overflow: hidden;
 }
-.aside {
+.grey .home .content-left {
+    float: left;
+    width: 40%;
+    padding-top: 1rem;
+}
+.grey .home .content-left h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+.grey .home .content-left h2 span {
+    font-weight: 700;
+}
+.grey .home .content-left span img {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+.grey .home .content-left p {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+.grey .home .content-left p span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+.grey .home .content-right {
     float: right;
-    padding: 2rem;
+    width: 55%;
+}
+.grey .home .content-right img {
+    width: 100%;
+    height: 80%;
 }
