@@ -124,7 +124,7 @@ nav li a:hover {
 .blue .cards .card img {
     width: 3rem;
     height: 3rem;
-    margin: 0 40%;
+    margin: 0 45%;
 }
 .blue .cards .card h3 {
     font-size: 1rem;
@@ -136,6 +136,58 @@ nav li a:hover {
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
 }
+.blue .cards2 {
+    text-align: center;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0;
+}
+.blue .cards2 .card {
+    padding: 1rem;
+}
+.blue .cards2 .card img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem auto;
+    display: block;
+}
+.blue .cards2 .card h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-weight: 700;
+}
+.blue .cards2 .card p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+.blue .product-left {
+    width: 45%;
+}
+.blue .product-left p {
+    padding: 1.5rem 0;
+}
+.blue .testimonials {
+    text-align: center;
+    color: #ffffff;
+}
+.blue .testimonials .testimonial {
+    display: inline-block;
+    width: 49%;
+}
+.blue .testimonials .testimonial img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4rem;
+    margin: 0 auto;
+}
+.blue .testimonials .testimonial p {
+    margin: 1rem auto;
+    font-size: 1rem;
+}
+
+
 
 .grey {
     background-color: #f5f4fa;
@@ -150,13 +202,12 @@ nav li a:hover {
     width: 40%;
     padding-top: 1rem;
 }
-.grey .home .content-left h2 {
+.grey .home h2 {
     font-size: 3rem;
-    margin-bottom: 2rem;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
 }
-.grey .home .content-left h2 span {
+.grey .home h2 span {
     font-weight: 700;
 }
 .grey .home .content-left span img {
@@ -184,4 +235,94 @@ nav li a:hover {
 .grey .home .content-right img {
     width: 100%;
     height: 80%;
+}
+.grey .product-left {
+    width: 55%;
+}
+.grey .product-left p {
+    margin-bottom: 3rem;
+}
+.grey .product-left p span {
+    font-weight: 700;
+}
+.navbar {
+    overflow: hidden;
+    height: 4rem;
+}
+.navbar ul {
+    height: 4rem;
+}
+.navbar ul li {
+    overflow: hidden;
+    display: inline-block;
+    padding: 1rem;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+.navbar ul li a:hover {
+    background-color: #dcd9e3;
+    padding: 0.7rem 0.5rem;
+}
+.navbar ul li a.active {
+    background-color: #dcd9e3;
+    padding: 0.7rem 0.5rem;
+}
+.items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2rem;
+}
+.items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.items img.tall {
+    grid-row: span 2;
+}
+.grey p{
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 2rem auto;
+}
+.grey .cards {
+    text-align: center;
+}
+.grey .cards .card {
+    background-color: #ffffff;
+    margin-right: 2rem;
+    padding: 2.5rem;
+    display: inline-grid;
+    width: 30%;
+}
+.grey .cards:last-child {
+    margin-right: 0;
+}
+.grey .cards .card h3 {
+    font-size: 1.2rem;
+}
+.grey .btn {
+    margin-top: 2rem;
+    text-align: center;
+}
+.grey .btn a{
+    color: #000000;
+    padding: 0.9rem 1.7rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 2px solid #000000;
+}
+.grey .btn a:hover {
+    background-color: #ffcc00;
+    color: #ffffff;
+    border: none;
 }
