@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .page {
     height: 100%;
@@ -11,6 +11,10 @@
 header {
     height: 4.163rem;
     background-color: #fbfaff;
+}
+header .darrow {
+    height: 0.5rem;
+    vertical-align: middle;
 }
 .content {
     margin: auto 10%;
@@ -27,20 +31,26 @@ nav ul {
     height: 4.163rem;
     padding: 0.5rem;
     display: table;
+    font-size: 0.6rem;
+    font-weight: 600;
 }
 nav li {
     display: table-cell;
     vertical-align: middle;
     overflow: hidden;
-    padding: 0 1.5rem;
 }
 nav li a {
     text-decoration: none;
     color: #000000;
+    padding: 1.5rem;
 }
 nav li a:hover {
-    background-color: #c5c4c7;
-    padding: 0.2rem 0.5rem;
+    background-color: #f0eff5;
+    padding: 1.5rem;
+}
+nav li a.active {
+    background-color: #f0eff5;
+    padding: 1.5rem;
 }
 
 .blue {
@@ -53,7 +63,7 @@ nav li a:hover {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color: #212443;
+    background-color: #15183b;
     opacity: 0.8;
     z-index: 1;
 }
@@ -168,9 +178,25 @@ nav li a:hover {
 .blue .product-left p {
     padding: 1.5rem 0;
 }
+.blue .product-right {
+    height: 4rem;
+    float: right;
+    display: flex;
+}
+.larrow {
+    height: 0.8rem;
+}
+.rarrow {
+    height: 0.8rem;
+    float: right;
+}
+.clear {
+    clear: both;
+}
 .blue .testimonials {
     text-align: center;
     color: #ffffff;
+    margin-top: 2rem;
 }
 .blue .testimonials .testimonial {
     display: inline-block;
@@ -190,7 +216,7 @@ nav li a:hover {
 
 
 .grey {
-    background-color: #f5f4fa;
+    background-color: #fbfaff;
 }
 .home {
     font-family: 'Roboto', sans-serif;
@@ -248,28 +274,32 @@ nav li a:hover {
 .navbar {
     overflow: hidden;
     height: 4rem;
+    margin-bottom: 2rem;
 }
 .navbar ul {
     height: 4rem;
-}
-.navbar ul li {
-    overflow: hidden;
-    display: inline-block;
-    padding: 1rem;
-}
-.navbar ul li a {
-    text-decoration: none;
-    color: #000000;
+    display: table;
     font-size: 0.6rem;
     font-weight: 600;
+    padding: 0.5rem;
 }
-.navbar ul li a:hover {
-    background-color: #dcd9e3;
-    padding: 0.7rem 0.5rem;
+.navbar li {
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
 }
-.navbar ul li a.active {
-    background-color: #dcd9e3;
-    padding: 0.7rem 0.5rem;
+.navbar li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1.5rem;
+}
+.navbar li a:hover {
+    background-color: #f0eff5;
+    padding: 1.5rem;
+}
+.navbar li .active {
+    background-color: #f0eff5;
+    padding: 1.5rem;
 }
 .items {
     width: 100%;
