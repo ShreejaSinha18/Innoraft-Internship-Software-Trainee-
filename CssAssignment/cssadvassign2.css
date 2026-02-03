@@ -403,11 +403,27 @@ footer .quicklinks .ql ul li a {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
+footer .quicklinks .ql form {
+    display: flex;
+    align-items: center;
+}
 footer .quicklinks .ql form input[type="email"] {
-    width: 70%;
-    padding: 0.7rem;
+    width: 65%;
+    padding: 1rem;
     border: none;
-    border-radius: 2rem;
+    border-radius: 3rem 0 0 3rem;
+}
+footer .quicklinks .ql form button {
+    width: 15%;
+    padding: 0.88rem;
+    border: none;
+    border-radius: 0 3rem 3rem 0;
+    background-color: #d0a904;
+    cursor: pointer;
+}
+footer .quicklinks .ql form button img {
+    height: 1rem;
+    width: auto;
 }
 footer p {
     text-align: center;
